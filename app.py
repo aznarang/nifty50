@@ -26,7 +26,7 @@ FALLBACK_TICKERS = [
 # =================================
 
 st.set_page_config(page_title="Nifty50 Explorer", layout="wide")
-st.title("Nifty50 Explorer (Streamlit)")
+st.title("Nifty50 Explorer (Satya)")
 
 # ---------------- UI: Auth (simple) ----------------
 if "authenticated" not in st.session_state:
